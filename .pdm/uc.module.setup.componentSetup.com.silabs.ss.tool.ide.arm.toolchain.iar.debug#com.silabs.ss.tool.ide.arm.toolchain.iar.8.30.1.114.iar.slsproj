@@ -4,65 +4,72 @@
     <folder name="platform">
       <folder name="Device">
         <folder name="SiliconLabs">
-          <folder name="EFR32MG22">
+          <folder name="EFR32MG24">
             <folder name="Source">
               <folder name="IAR">
-                <file name="startup_efr32mg22.c" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Source/IAR/startup_efr32mg22.c"/>
+                <file name="startup_efr32mg24.c" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Source/IAR/startup_efr32mg24.c"/>
               </folder>
-              <file name="system_efr32mg22.c" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Source/system_efr32mg22.c"/>
+              <file name="system_efr32mg24.c" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Source/system_efr32mg24.c"/>
             </folder>
             <folder name="Include">
-              <file name="efr32mg22c224f512im40.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22c224f512im40.h"/>
-              <file name="efr32mg22_aes.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_aes.h"/>
-              <file name="efr32mg22_agc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_agc.h"/>
-              <file name="efr32mg22_amuxcp.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_amuxcp.h"/>
-              <file name="efr32mg22_bufc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_bufc.h"/>
-              <file name="efr32mg22_buram.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_buram.h"/>
-              <file name="efr32mg22_burtc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_burtc.h"/>
-              <file name="efr32mg22_cmu.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_cmu.h"/>
-              <file name="efr32mg22_cryptoacc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_cryptoacc.h"/>
-              <file name="efr32mg22_dcdc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_dcdc.h"/>
-              <file name="efr32mg22_devinfo.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_devinfo.h"/>
-              <file name="efr32mg22_dma_descriptor.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_dma_descriptor.h"/>
-              <file name="efr32mg22_dpll.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_dpll.h"/>
-              <file name="efr32mg22_emu.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_emu.h"/>
-              <file name="efr32mg22_eusart.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_eusart.h"/>
-              <file name="efr32mg22_frc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_frc.h"/>
-              <file name="efr32mg22_fsrco.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_fsrco.h"/>
-              <file name="efr32mg22_gpcrc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_gpcrc.h"/>
-              <file name="efr32mg22_gpio.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_gpio.h"/>
-              <file name="efr32mg22_gpio_port.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_gpio_port.h"/>
-              <file name="efr32mg22_hfrco.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_hfrco.h"/>
-              <file name="efr32mg22_hfxo.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_hfxo.h"/>
-              <file name="efr32mg22_i2c.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_i2c.h"/>
-              <file name="efr32mg22_iadc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_iadc.h"/>
-              <file name="efr32mg22_icache.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_icache.h"/>
-              <file name="efr32mg22_ldma.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_ldma.h"/>
-              <file name="efr32mg22_ldmaxbar.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_ldmaxbar.h"/>
-              <file name="efr32mg22_ldmaxbar_defines.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_ldmaxbar_defines.h"/>
-              <file name="efr32mg22_letimer.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_letimer.h"/>
-              <file name="efr32mg22_lfrco.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_lfrco.h"/>
-              <file name="efr32mg22_lfxo.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_lfxo.h"/>
-              <file name="efr32mg22_mailbox.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_mailbox.h"/>
-              <file name="efr32mg22_modem.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_modem.h"/>
-              <file name="efr32mg22_msc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_msc.h"/>
-              <file name="efr32mg22_pdm.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_pdm.h"/>
-              <file name="efr32mg22_protimer.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_protimer.h"/>
-              <file name="efr32mg22_prs.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_prs.h"/>
-              <file name="efr32mg22_prs_signals.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_prs_signals.h"/>
-              <file name="efr32mg22_rac.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_rac.h"/>
-              <file name="efr32mg22_rfcrc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_rfcrc.h"/>
-              <file name="efr32mg22_rfsense.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_rfsense.h"/>
-              <file name="efr32mg22_rtcc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_rtcc.h"/>
-              <file name="efr32mg22_smu.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_smu.h"/>
-              <file name="efr32mg22_synth.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_synth.h"/>
-              <file name="efr32mg22_syscfg.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_syscfg.h"/>
-              <file name="efr32mg22_timer.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_timer.h"/>
-              <file name="efr32mg22_ulfrco.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_ulfrco.h"/>
-              <file name="efr32mg22_usart.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_usart.h"/>
-              <file name="efr32mg22_wdog.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_wdog.h"/>
-              <file name="em_device.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/em_device.h"/>
-              <file name="system_efr32mg22.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/system_efr32mg22.h"/>
+              <file name="efr32mg24a010f1536gm48.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24a010f1536gm48.h"/>
+              <file name="efr32mg24_acmp.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_acmp.h"/>
+              <file name="efr32mg24_aes.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_aes.h"/>
+              <file name="efr32mg24_agc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_agc.h"/>
+              <file name="efr32mg24_amuxcp.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_amuxcp.h"/>
+              <file name="efr32mg24_bufc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_bufc.h"/>
+              <file name="efr32mg24_buram.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_buram.h"/>
+              <file name="efr32mg24_burtc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_burtc.h"/>
+              <file name="efr32mg24_cmu.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_cmu.h"/>
+              <file name="efr32mg24_dcdc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dcdc.h"/>
+              <file name="efr32mg24_devinfo.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_devinfo.h"/>
+              <file name="efr32mg24_dma_descriptor.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h"/>
+              <file name="efr32mg24_dpll.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dpll.h"/>
+              <file name="efr32mg24_eca.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_eca.h"/>
+              <file name="efr32mg24_ecaifadc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ecaifadc.h"/>
+              <file name="efr32mg24_emu.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_emu.h"/>
+              <file name="efr32mg24_eusart.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_eusart.h"/>
+              <file name="efr32mg24_frc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_frc.h"/>
+              <file name="efr32mg24_fsrco.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_fsrco.h"/>
+              <file name="efr32mg24_gpcrc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_gpcrc.h"/>
+              <file name="efr32mg24_gpio.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_gpio.h"/>
+              <file name="efr32mg24_gpio_port.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_gpio_port.h"/>
+              <file name="efr32mg24_hfrco.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_hfrco.h"/>
+              <file name="efr32mg24_hfxo.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_hfxo.h"/>
+              <file name="efr32mg24_i2c.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_i2c.h"/>
+              <file name="efr32mg24_iadc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_iadc.h"/>
+              <file name="efr32mg24_icache.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_icache.h"/>
+              <file name="efr32mg24_keyscan.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_keyscan.h"/>
+              <file name="efr32mg24_ldma.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldma.h"/>
+              <file name="efr32mg24_ldmaxbar.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar.h"/>
+              <file name="efr32mg24_ldmaxbar_defines.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h"/>
+              <file name="efr32mg24_letimer.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_letimer.h"/>
+              <file name="efr32mg24_lfrco.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_lfrco.h"/>
+              <file name="efr32mg24_lfxo.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_lfxo.h"/>
+              <file name="efr32mg24_mailbox.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_mailbox.h"/>
+              <file name="efr32mg24_modem.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_modem.h"/>
+              <file name="efr32mg24_mpahbram.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_mpahbram.h"/>
+              <file name="efr32mg24_msc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_msc.h"/>
+              <file name="efr32mg24_mvp.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_mvp.h"/>
+              <file name="efr32mg24_pcnt.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_pcnt.h"/>
+              <file name="efr32mg24_protimer.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_protimer.h"/>
+              <file name="efr32mg24_prs.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs.h"/>
+              <file name="efr32mg24_prs_signals.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h"/>
+              <file name="efr32mg24_rac.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_rac.h"/>
+              <file name="efr32mg24_rfcrc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_rfcrc.h"/>
+              <file name="efr32mg24_scratchpad.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_scratchpad.h"/>
+              <file name="efr32mg24_semailbox.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_semailbox.h"/>
+              <file name="efr32mg24_smu.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_smu.h"/>
+              <file name="efr32mg24_synth.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_synth.h"/>
+              <file name="efr32mg24_syscfg.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_syscfg.h"/>
+              <file name="efr32mg24_sysrtc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_sysrtc.h"/>
+              <file name="efr32mg24_timer.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_timer.h"/>
+              <file name="efr32mg24_ulfrco.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ulfrco.h"/>
+              <file name="efr32mg24_usart.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_usart.h"/>
+              <file name="efr32mg24_vdac.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_vdac.h"/>
+              <file name="efr32mg24_wdog.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_wdog.h"/>
+              <file name="em_device.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/em_device.h"/>
+              <file name="system_efr32mg24.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include/system_efr32mg24.h"/>
             </folder>
           </folder>
         </folder>
@@ -154,8 +161,7 @@
         <folder name="sleeptimer">
           <folder name="src">
             <file name="sl_sleeptimer.c" linked="false" uri="studio:/sdk/platform/service/sleeptimer/src/sl_sleeptimer.c"/>
-            <file name="sl_sleeptimer_hal_rtcc.c" linked="false" uri="studio:/sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.c"/>
-            <file name="sl_sleeptimer_hal_prortc.c" linked="false" uri="studio:/sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_prortc.c"/>
+            <file name="sl_sleeptimer_hal_sysrtc.c" linked="false" uri="studio:/sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_sysrtc.c"/>
             <file name="sl_sleeptimer_hal_burtc.c" linked="false" uri="studio:/sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_burtc.c"/>
             <file name="sli_sleeptimer_hal.h" linked="false" uri="studio:/sdk/platform/service/sleeptimer/src/sli_sleeptimer_hal.h"/>
           </folder>
@@ -181,14 +187,13 @@
           <file name="em_assert.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_assert.c"/>
           <file name="em_core.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_core.c"/>
           <file name="em_emu.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_emu.c"/>
+          <file name="em_eusart.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_eusart.c"/>
           <file name="em_gpio.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_gpio.c"/>
           <file name="em_iadc.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_iadc.c"/>
           <file name="em_ldma.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_ldma.c"/>
           <file name="em_letimer.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_letimer.c"/>
           <file name="em_prs.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_prs.c"/>
-          <file name="em_rtcc.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_rtcc.c"/>
           <file name="em_system.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_system.c"/>
-          <file name="em_usart.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_usart.c"/>
         </folder>
         <folder name="inc">
           <file name="em_burtc.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_burtc.h"/>
@@ -202,14 +207,22 @@
           <file name="em_version.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_version.h"/>
           <file name="em_core.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_core.h"/>
           <file name="em_emu.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_emu.h"/>
+          <file name="em_eusart.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_eusart.h"/>
+          <file name="em_eusart_compat.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_eusart_compat.h"/>
           <file name="em_gpio.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_gpio.h"/>
           <file name="em_iadc.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_iadc.h"/>
           <file name="em_ldma.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_ldma.h"/>
           <file name="em_letimer.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_letimer.h"/>
           <file name="em_prs.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_prs.h"/>
-          <file name="em_rtcc.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_rtcc.h"/>
           <file name="em_system.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_system.h"/>
-          <file name="em_usart.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_usart.h"/>
+        </folder>
+      </folder>
+      <folder name="peripheral">
+        <folder name="src">
+          <file name="peripheral_sysrtc.c" linked="false" uri="studio:/sdk/platform/peripheral/src/peripheral_sysrtc.c"/>
+        </folder>
+        <folder name="inc">
+          <file name="peripheral_sysrtc.h" linked="false" uri="studio:/sdk/platform/peripheral/inc/peripheral_sysrtc.h"/>
         </folder>
       </folder>
     </folder>
@@ -227,13 +240,13 @@
       <folder name="driver">
         <folder name="mx25_flash_shutdown">
           <folder name="src">
-            <folder name="sl_mx25_flash_shutdown_usart">
-              <file name="sl_mx25_flash_shutdown.c" linked="false" uri="studio:/sdk/hardware/driver/mx25_flash_shutdown/src/sl_mx25_flash_shutdown_usart/sl_mx25_flash_shutdown.c"/>
+            <folder name="sl_mx25_flash_shutdown_eusart">
+              <file name="sl_mx25_flash_shutdown.c" linked="false" uri="studio:/sdk/hardware/driver/mx25_flash_shutdown/src/sl_mx25_flash_shutdown_eusart/sl_mx25_flash_shutdown.c"/>
             </folder>
           </folder>
           <folder name="inc">
-            <folder name="sl_mx25_flash_shutdown_usart">
-              <file name="sl_mx25_flash_shutdown.h" linked="false" uri="studio:/sdk/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_usart/sl_mx25_flash_shutdown.h"/>
+            <folder name="sl_mx25_flash_shutdown_eusart">
+              <file name="sl_mx25_flash_shutdown.h" linked="false" uri="studio:/sdk/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart/sl_mx25_flash_shutdown.h"/>
             </folder>
           </folder>
         </folder>
@@ -244,7 +257,7 @@
   <file name="main.c" linked="false" uri="studio:/project/main.c"/>
   <file name="app.h" linked="false" uri="studio:/project/app.h"/>
   <includePath uri="studio:/project/"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/Device/SiliconLabs/EFR32MG22/Include"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/Device/SiliconLabs/EFR32MG24/Include"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/common/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/hardware/board/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/CMSIS/Include"/>
@@ -252,18 +265,19 @@
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/emlib/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/emlib/host/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/hfxo_manager/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.2/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_usart"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/peripheral/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/power_manager/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/common/toolchain/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/system/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/sleeptimer/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/udelay/inc"/>
   <macroDefinition name="DEBUG_EFM"/>
-  <macroDefinition name="EFR32MG22C224F512IM40"/>
+  <macroDefinition name="EFR32MG24A010F1536GM48"/>
   <macroDefinition name="SL_BOARD_NAME" value="&quot;BRD4001A&quot;"/>
   <macroDefinition name="SL_BOARD_REV" value="&quot;A03&quot;"/>
-  <macroDefinition name="SL_BOARD_NAME" value="&quot;BRD4182A&quot;"/>
-  <macroDefinition name="SL_BOARD_REV" value="&quot;B06&quot;"/>
+  <macroDefinition name="SL_BOARD_NAME" value="&quot;BRD4186A&quot;"/>
+  <macroDefinition name="SL_BOARD_REV" value="&quot;A04&quot;"/>
   <macroDefinition name="SL_COMPONENT_CATALOG_PRESENT"/>
   <toolOption toolId="toolOption.uc.toolchain" optionId="toolOption.uc.toolchain.cpu" value="cortex-m33"/>
   <toolOption toolId="toolOption.uc.toolchain" optionId="toolOption.uc.toolchain.fpu" value="fpv5-sp"/>
@@ -289,7 +303,7 @@
   <toolOption toolId="iar.arm.toolchain.compiler.v5.4.1" optionId="iar.arm.toolchain.compiler.option.treatAllWarningsAsErrors.v5.4.0" value="false"/>
   <toolOption toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.icfFile.v5.4.0" value="${workspace_loc:/${ProjName}}/autogen/linkerfile.icf"/>
   <toolOption toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.mapFile.v6.2.2" value="true"/>
-  <toolOption toolId="studio.ide.project" optionId="device_opn" value="efr32mg22c224f512im40"/>
+  <toolOption toolId="studio.ide.project" optionId="device_opn" value="efr32mg24a010f1536gm48"/>
   <toolOption toolId="makefile.arm.gcc.linker" optionId="misc">
     <toolListOption value="-Wl,--gc-sections"/>
   </toolOption>

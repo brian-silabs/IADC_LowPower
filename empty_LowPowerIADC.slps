@@ -4,8 +4,8 @@
     <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.0.2._1196048806"/>
     <properties key="universalConfig.generationDirectory" value="C:\Users\Brian\SimplicityStudio\v5_workspaceNew2021\empty_LowPowerIADC"/>
     <properties key="universalConfig.toolchainCompatibility" value="iar gcc"/>
-    <properties key="projectCommon.boardIds" value="brd4182a:0.0.0 brd4001a:0.0.0.A01"/>
-    <properties key="projectCommon.partId" value="mcu.arm.efr32.mg22.efr32mg22c224f512im40"/>
+    <properties key="projectCommon.boardIds" value="brd4001a:0.0.0.A01 brd4186a:0.0.0.A03"/>
+    <properties key="projectCommon.partId" value="mcu.arm.efr32.mg24.efr32mg24a010f1536gm48"/>
     <properties key="projectCommon.toolchainId" value="com.silabs.ss.tool.ide.arm.toolchain.iar:8.30.1.114"/>
     <properties key="universalConfig.projectTypeIds" value="com.silabs.ss.framework.ide.project.core.cdtMbsProjectType"/>
     <properties key="projectCommon.importModeId" value="COPY"/>

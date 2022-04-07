@@ -22,7 +22,7 @@
 #include "em_ldma.h"
 #include "em_prs.h"
 #include "em_letimer.h"
-
+#include "sl_power_manager.h"
 
 /*******************************************************************************
  *******************************   DEFINES   ***********************************
@@ -73,6 +73,15 @@
 #define IADC_INPUT_POS             iadcPosInputPortBPin2 // With WSK board P12 h15
 #define IADC_INPUT_NEG             iadcNegInputPortBPin3 // With WSK board P13 h16
 
+#define EM_EVENT_MASK_ALL      (  SL_POWER_MANAGER_EVENT_TRANSITION_ENTERING_EM0 \
+                                | SL_POWER_MANAGER_EVENT_TRANSITION_LEAVING_EM0  \
+                                | SL_POWER_MANAGER_EVENT_TRANSITION_ENTERING_EM1 \
+                                | SL_POWER_MANAGER_EVENT_TRANSITION_LEAVING_EM1  \
+                                | SL_POWER_MANAGER_EVENT_TRANSITION_ENTERING_EM2 \
+                                | SL_POWER_MANAGER_EVENT_TRANSITION_LEAVING_EM2  \
+                                | SL_POWER_MANAGER_EVENT_TRANSITION_ENTERING_EM3 \
+                                | SL_POWER_MANAGER_EVENT_TRANSITION_LEAVING_EM3)
+
 /*******************************************************************************
  ***************************   GLOBAL VARIABLES   *******************************
  ******************************************************************************/
@@ -82,6 +91,15 @@ LDMA_Descriptor_t descriptor;
 
 // buffer to store IADC samples
 uint32_t singleBuffer[NUM_SAMPLES];
+
+void sleep_notification_callback(sl_power_manager_em_t from,
+                 sl_power_manager_em_t to);
+
+sl_power_manager_em_transition_event_handle_t event_handle;
+sl_power_manager_em_transition_event_info_t event_info = {
+  .event_mask = EM_EVENT_MASK_ALL,
+  .on_event = sleep_notification_callback,
+};
 
 /*******************************************************************************
  ***************************   GLOBAL DECLARATIONS  ****************************
@@ -163,11 +181,12 @@ void initIADC (void)
 
   // Configure IADC clock source for use while in EM2
   CMU_ClockSelectSet(cmuClock_IADCCLK, cmuSelect_FSRCO); // 20MHz
+  //CMU_ClockSelectSet(cmuClock_IADCCLK, cmuSelect_EM23GRPACLK);
 
 #if (USE_LETIMER_AS_SAMPLING_TRIGGER)
   init.iadcClkSuspend1 = true;//Turn off clocks between single acquisitions
 #endif
-  
+
   // Modify init structs and initialize
   init.warmup = iadcWarmupNormal;
 
@@ -268,7 +287,7 @@ void initLDMA(uint32_t *buffer, uint32_t size)
 
   // Interrupt after transfer complete
   descriptor.xfer.doneIfs = 1;
-  descriptor.xfer.ignoreSrec = 0;
+  descriptor.xfer.ignoreSrec = 1;
 
   // Start transfer, LDMA will sample the IADC NUM_SAMPLES time, and then interrupt
   LDMA_StartTransfer(0, (void*)&transferCfg, (void*)&descriptor);
@@ -299,6 +318,8 @@ void LDMA_IRQHandler(void)
 void app_init(void)
 {
 
+  sl_power_manager_subscribe_em_transition_event(&event_handle, &event_info);
+
   // Initialize the IADC
   initIADC();
 
@@ -326,3 +347,24 @@ void app_process_action(void)
 {
 
 }
+
+/***************************************************************************//**
+ * Extra features needed to achieve lowest power
+ ******************************************************************************/
+
+void sleep_notification_callback(sl_power_manager_em_t from,
+                 sl_power_manager_em_t to)
+{
+  if((SL_POWER_MANAGER_EM0 == from) && \
+    (SL_POWER_MANAGER_EM2 == to))
+  {
+      //EMU_RamPowerDown(SRAM_BASE, 0);//Saves 7 uA on rev A but ends in hardfault when using LDMA
+  }
+
+  if((SL_POWER_MANAGER_EM2 == from) && \
+    (SL_POWER_MANAGER_EM0 == to))
+  {
+      //EMU_RamPowerUp();
+  }
+}
+

@@ -108,3 +108,45 @@
 
 #endif // PIN_CONFIG_H
 
+// $[MSC]
+// [MSC]$
+
+// $[PRS.ASYNCH12]
+// [PRS.ASYNCH12]$
+
+// $[PRS.ASYNCH13]
+// [PRS.ASYNCH13]$
+
+// $[PRS.ASYNCH14]
+// [PRS.ASYNCH14]$
+
+// $[PRS.ASYNCH15]
+// [PRS.ASYNCH15]$
+
+// $[EUSART1]
+// [EUSART1]$
+
+// $[KEYSCAN]
+// [KEYSCAN]$
+
+// $[ACMP0]
+// [ACMP0]$
+
+// $[ACMP1]
+// [ACMP1]$
+
+// $[VDAC0]
+// [VDAC0]$
+
+// $[VDAC1]
+// [VDAC1]$
+
+// $[PCNT0]
+// [PCNT0]$
+
+// $[HFXO0]
+// [HFXO0]$
+
+// $[EUSART0]
+// [EUSART0]$
+

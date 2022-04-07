@@ -19,12 +19,12 @@ component:
 - {id: power_manager}
 - {id: emlib_iadc}
 - {id: emlib_letimer}
-- {id: EFR32MG22C224F512IM40}
 - {id: emlib_ldma}
 - {id: sl_system}
 - {id: device_init}
+- {id: brd4186a}
 - {id: brd4001a}
-- {id: brd4182a_b06}
+- {id: EFR32MG24A010F1536GM48}
 - {id: emlib_prs}
 define:
 - {name: DEBUG_EFM}

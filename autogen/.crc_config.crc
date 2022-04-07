@@ -7,6 +7,7 @@ sl_device_init_hfxo_config.h=-884015270
 sl_device_init_lfxo_config.h=-2109567142
 sl_hfxo_manager_config.h=415033866
 sl_memory_config.h=687128566
+sl_mx25_flash_shutdown_eusart_config.h=179470237
 sl_mx25_flash_shutdown_usart_config.h=906629526
 sl_power_manager_config.h=-1475773310
 sl_sleeptimer_config.h=-1879962229
