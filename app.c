@@ -163,12 +163,11 @@ void initIADC (void)
 
   // Configure IADC clock source for use while in EM2
   CMU_ClockSelectSet(cmuClock_IADCCLK, cmuSelect_FSRCO); // 20MHz
-  //CMU_ClockSelectSet(cmuClock_IADCCLK, cmuSelect_EM23GRPACLK);
 
 #if (USE_LETIMER_AS_SAMPLING_TRIGGER)
   init.iadcClkSuspend1 = true;//Turn off clocks between single acquisitions
 #endif
-
+  
   // Modify init structs and initialize
   init.warmup = iadcWarmupNormal;
 
