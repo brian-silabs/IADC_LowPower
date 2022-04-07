@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="uc.module.setup.ucProject.com.silabs.ss.tool.ide.arm.toolchain.iar.debug#com.silabs.ss.tool.ide.arm.toolchain.iar:8.30.1.114.iar" propertyScope="project">
   <folder name="autogen">
-    <file name=".crc_config.crc" builtin="true" generated="true" uri="studio:/project/autogen/.crc_config.crc"/>
+    <file name=".crc_config.crc" builtin="true" generated="true"/>
   </folder>
 </project>

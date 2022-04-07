@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
   <descriptors name="empty_LowPowerIADC">
-    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.0.1._1395198651"/>
+    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.0.2._1196048806"/>
     <properties key="universalConfig.generationDirectory" value="C:\Users\Brian\SimplicityStudio\v5_workspaceNew2021\empty_LowPowerIADC"/>
     <properties key="universalConfig.toolchainCompatibility" value="iar gcc"/>
     <properties key="projectCommon.boardIds" value="brd4182a:0.0.0 brd4001a:0.0.0.A01"/>

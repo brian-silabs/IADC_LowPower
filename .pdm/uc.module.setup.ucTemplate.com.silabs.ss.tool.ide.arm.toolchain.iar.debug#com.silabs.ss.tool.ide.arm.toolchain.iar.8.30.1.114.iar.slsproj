@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="uc.module.setup.ucTemplate.com.silabs.ss.tool.ide.arm.toolchain.iar.debug#com.silabs.ss.tool.ide.arm.toolchain.iar:8.30.1.114.iar" propertyScope="project">
   <folder name="autogen">
-    <file name="sl_board_default_init.c" builtin="true" generated="true" uri="studio:/project/autogen/sl_board_default_init.c"/>
-    <file name="RTE_Components.h" builtin="true" generated="true" uri="studio:/project/autogen/RTE_Components.h"/>
-    <file name="sl_component_catalog.h" builtin="true" generated="true" uri="studio:/project/autogen/sl_component_catalog.h"/>
-    <file name="sl_device_init_clocks.c" builtin="true" generated="true" uri="studio:/project/autogen/sl_device_init_clocks.c"/>
-    <file name="sl_event_handler.h" builtin="true" generated="true" uri="studio:/project/autogen/sl_event_handler.h"/>
-    <file name="sl_event_handler.c" builtin="true" generated="true" uri="studio:/project/autogen/sl_event_handler.c"/>
-    <file name="sl_power_manager_handler.c" builtin="true" generated="true" uri="studio:/project/autogen/sl_power_manager_handler.c"/>
-    <file name="linkerfile.icf" builtin="true" generated="true" uri="studio:/project/autogen/linkerfile.icf"/>
+    <file name="sl_board_default_init.c" builtin="true" generated="true"/>
+    <file name="RTE_Components.h" builtin="true" generated="true"/>
+    <file name="sl_component_catalog.h" builtin="true" generated="true"/>
+    <file name="sl_device_init_clocks.c" builtin="true" generated="true"/>
+    <file name="sl_event_handler.h" builtin="true" generated="true"/>
+    <file name="sl_event_handler.c" builtin="true" generated="true"/>
+    <file name="sl_power_manager_handler.c" builtin="true" generated="true"/>
+    <file name="linkerfile.icf" builtin="true" generated="true"/>
   </folder>
   <includePath uri="studio:/project/autogen"/>
 </project>

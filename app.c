@@ -38,7 +38,7 @@
 #define CLK_ADC_FREQ              4000000 // CLK_ADC
 
 #if (USE_LETIMER_AS_SAMPLING_TRIGGER)
-// ADC sample rate @2340.6Hz
+// ADC sample rate @2340.6Hz //256sps/s
 #define SAMPLING_TIME_TICK                14u // top value for timer @ 32768Hz = CMU_ClockFreqGet(cmuClock_LETIMER0) / SAMPLING_FREQ_HZ
 #define LETIMER_TRIGGER_PRS_CHANNEL       1         //PRS channel 1 as trigger for LETIMER operations
 #else
@@ -164,6 +164,10 @@ void initIADC (void)
   // Configure IADC clock source for use while in EM2
   CMU_ClockSelectSet(cmuClock_IADCCLK, cmuSelect_FSRCO); // 20MHz
   //CMU_ClockSelectSet(cmuClock_IADCCLK, cmuSelect_EM23GRPACLK);
+
+#if (USE_LETIMER_AS_SAMPLING_TRIGGER)
+  init.iadcClkSuspend1 = true;//Turn off clocks between single acquisitions
+#endif
 
   // Modify init structs and initialize
   init.warmup = iadcWarmupNormal;
@@ -308,6 +312,7 @@ void app_init(void)
 
   //Init PRS
   prsInit();
+
 #else
   // IADC single already enabled; must enable timer block in order to trigger
   IADC_command(IADC0, iadcCmdEnableTimer);

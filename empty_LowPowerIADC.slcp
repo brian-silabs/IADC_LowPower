@@ -13,15 +13,15 @@ include:
 - path: ''
   file_list:
   - {path: app.h}
-sdk: {id: gecko_sdk, version: 4.0.1}
+sdk: {id: gecko_sdk, version: 4.0.2}
 toolchain_settings: []
 component:
 - {id: power_manager}
 - {id: emlib_iadc}
 - {id: emlib_letimer}
 - {id: EFR32MG22C224F512IM40}
-- {id: sl_system}
 - {id: emlib_ldma}
+- {id: sl_system}
 - {id: device_init}
 - {id: brd4001a}
 - {id: brd4182a_b06}

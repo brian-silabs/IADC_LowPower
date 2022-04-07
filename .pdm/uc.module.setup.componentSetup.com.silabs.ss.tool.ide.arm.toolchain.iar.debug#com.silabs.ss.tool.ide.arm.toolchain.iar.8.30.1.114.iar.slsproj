@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="uc.module.setup.componentSetup.com.silabs.ss.tool.ide.arm.toolchain.iar.debug#com.silabs.ss.tool.ide.arm.toolchain.iar:8.30.1.114.iar" propertyScope="project">
-  <folder name="gecko_sdk_4.0.1">
+  <folder name="gecko_sdk_4.0.2">
     <folder name="platform">
       <folder name="Device">
         <folder name="SiliconLabs">
@@ -244,20 +244,20 @@
   <file name="main.c" linked="false" uri="studio:/project/main.c"/>
   <file name="app.h" linked="false" uri="studio:/project/app.h"/>
   <includePath uri="studio:/project/"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/Device/SiliconLabs/EFR32MG22/Include"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/common/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/hardware/board/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/CMSIS/Include"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/service/device_init/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/emlib/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/emlib/host/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/service/hfxo_manager/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_usart"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/service/power_manager/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/common/toolchain/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/service/system/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/service/sleeptimer/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.0.1/platform/service/udelay/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/Device/SiliconLabs/EFR32MG22/Include"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/common/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/hardware/board/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/CMSIS/Include"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/device_init/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/emlib/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/emlib/host/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/hfxo_manager/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_usart"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/power_manager/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/common/toolchain/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/system/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/sleeptimer/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.0.2/platform/service/udelay/inc"/>
   <macroDefinition name="DEBUG_EFM"/>
   <macroDefinition name="EFR32MG22C224F512IM40"/>
   <macroDefinition name="SL_BOARD_NAME" value="&quot;BRD4001A&quot;"/>
